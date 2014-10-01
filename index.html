@@ -224,7 +224,8 @@ $("#map").keydown(function( event ) {
     }
     geojson.setStyle(style)
     title.transition()
-    	.text("Residents per square mile aged " + ages_text[aindex] + " in " + decades_text[dindex])
+        .attr("class", "title")
+    	.text("Residents per square mile ages " + ages_text[aindex] + " in " + decades_text[dindex])
 });
 
 </script>
